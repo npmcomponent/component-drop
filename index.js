@@ -3,9 +3,9 @@
  * Module dependencies.
  */
 
-var normalize = require('normalized-upload');
-var classes = require('classes');
-var events = require('events');
+var normalize = require('component-normalized-upload');
+var classes = require('component-classes');
+var events = require('component-events');
 
 /**
  * Expose `Drop`.

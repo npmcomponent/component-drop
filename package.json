@@ -1,6 +1,6 @@
 {
   "name": "component-drop",
-  "description": "drag and drop file uploading with a single drop event",
+  "description": "drag and drop uploads with a single event per drop",
   "version": "0.1.7",
   "keywords": [
     "drag",
@@ -9,23 +9,9 @@
     "file"
   ],
   "dependencies": {
-    "component-classes": "*",
-    "component-events": "*",
-    "component-normalized-upload": "*"
+    "component-classes": "git://github.com/npmcomponent/component-classes.git",
+    "component-events": "git://github.com/npmcomponent/component-events.git",
+    "component-normalized-upload": "git://github.com/npmcomponent/component-normalized-upload.git"
   },
-  "main": "index.js",
-  "component": {
-    "scripts": {
-      "drop/index.js": "index.js"
-    }
-  },
-  "browser": {
-    "classes": "component-classes",
-    "events": "component-events",
-    "normalized-upload": "component-normalized-upload"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/drop.git"
-  }
+  "license": "MIT"
 }
